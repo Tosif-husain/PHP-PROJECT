@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/Login.png);
+  height: 100vh;
+  width: 100%;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 380px;
+  height: 600px;
+  border: 2px solid #545252;
+  border-radius: 20px;
+}
+
+div h1 {
+  color: #ffffff;
+  margin: 95px 0 0 30px;
+  font-size: 30px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#name, #password {
+  margin: 10px 0 0 28px;
+  padding: 8px;
+  font-family: serif;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 300px;
+  border: 1px solid #545252;
+  background-color: unset;
+}
+
+#name {
+  margin-top: 10px;
+}
+
+#password {
+  margin-top: 15px;
+}
+
+#name:focus, #password:focus {
+  border-color: #a53093;
+  outline: none;
+}
+
+#checkbox {
+  margin: 15px 0 0 28px;
+}
+
+#checkbox_text {
+  color: #ffffff;
+}
+
+.login_button {
+  width: 300px;
+  padding: 10px;
+  border-radius: 12px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+  background: linear-gradient(to right, #628eff, #8740cd, #580475);
+}
+
+.login_button:hover {
+  background: linear-gradient(135deg, #a53093 10%, #b6a2c0 100%);
+  color: black;
+  transition: 0.3s;
+}
+
+#forget {
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 15px;
+}
+
+#horizontal {
+  border: 1px solid #545252;
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+#or {
+  position: absolute;
+  padding: 5px;
+  width: 20px;
+  color: #545252;
+  background-color: rgb(15, 15, 15);
+  transform: translateY(-15px);
+  margin-left: 177px;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add some space above the icons */
+}
+
+#images a {
+  margin: 0 10px; /* Space between icons */
+  font-size: 24px; /* Adjust the icon size */
+  transition: transform 0.3s; /* Add transition for hover effect */
+}
+
+#images a:hover {
+  transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#signup {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+#paragraph {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+#last {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+#Terms_support_care {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .login {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+  }
+
+  #name, #password {
+    width: 90%;
+  }
+}

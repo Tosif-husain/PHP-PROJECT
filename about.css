@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent box model */
+}
+
+body {
+  background-color: #201d1d; /* Dark background for contrast */
+  font-family: Arial, sans-serif; /* Added font for better readability */
+}
+
+header {
+  padding: 20px;
+  background-color: black; /* Header background */
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+div a {
+  text-decoration: none;
+  margin: 0 20px; /* Horizontal spacing */
+  color: #ffffff; /* White text for links */
+  font-family: monospace;
+  font-size: large;
+}
+div a:hover {
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+  -webkit-background-clip: text; /* Vendor prefix for WebKit browsers */
+  background-clip: text; /* Standard property for compatibility */
+  color: transparent; /* Transparent text to show gradient */
+  transition: 0.5s; /* Smooth transition */
+}
+
+#container2 {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin: 50px; /* Added margin for spacing */
+}
+
+#image {
+  width: 300px;
+  height: 250px;
+  border: 5px solid purple; 
+  border-radius: 15px;
+  transform: rotate(-0.02turn);
+  margin-right: 50px; 
+}
+
+h1, h3, p {
+  color: #ffffff; 
+}
+
+/* Repeat for other uses of background-clip */
+#about-me {
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%); 
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard property for compatibility */
+  color: transparent; 
+  font-size: 50px; 
+  margin: 20px 0;
+}
+.name {
+  font-family: Georgia, serif; 
+  margin-top: 20px;
+}
+
+#paragraph {
+  margin-top: 20px; 
+  line-height: 1.6; 
+}
+
+.i-am {
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+  -webkit-background-clip: text; 
+  background-clip: text; /* Standard property for compatibility */
+  color: transparent; 
+}

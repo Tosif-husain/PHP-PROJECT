@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh; /* Changed to 100vh to cover the entire viewport height */
+  background-color: black;
+  font-family: Arial, sans-serif; /* Added font-family for better text rendering */
+  color: white; /* Default text color for better contrast */
+}
+
+#main-container {
+  height: 97vh;
+  width: 100%;
+  overflow-y: auto; /* Added scroll if the content overflows */
+  padding-top: 20px;
+}
+
+#parent-one {
+  border-bottom: 1px solid #2b2727;
+  padding: 10px 80px; /* Adjusted padding for a more balanced layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between image and content */
+  transition: background-color 0.3s ease; /* Added smooth hover effect */
+}
+
+#parent-one:hover {
+  background-color: #1a1a1a; /* Subtle hover effect for better UX */
+}
+
+#image {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensure image fits within the circle */
+}
+
+.paragraph {
+  color: #ccc; /* Lighter color for paragraph text */
+  margin-bottom: 10px;
+}
+
+.para {
+  width: 60%; /* Reduced width for better layout */
+  display: block;
+}
+
+.para p {
+  margin-bottom: 5px; /* Added some margin between lines of text */
+}
+
+#parent-one div {
+  flex: 1; /* Flexbox adjustment for dynamic content width */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+
+header {
+  padding: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+
+.header {
+  text-decoration: none;
+  margin-inline: 20px; /* Adjusted for better spacing */
+  color: #ffffff;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header:hover {
+  background-image: linear-gradient(135deg, #FFDB01 10%, #0E197D 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile responsive adjustments */
+  #parent-one {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #image {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .para {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

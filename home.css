@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(19, 15, 15);
+}
+
+header {
+  padding: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+
+.header {
+  text-decoration: none;
+  margin-inline: 20px; /* Adjusted for better spacing */
+  color: #ffffff;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px; /* Add padding for consistent button appearance */
+  transition: background 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.header:hover {
+  background-image: linear-gradient(135deg, #FFDB01 10%, #0E197D 100%);
+  -webkit-background-clip: text;
+  color: transparent; /* Text transparent for gradient */
+  transition: 0.5s; /* Smooth transition on hover */
+}
+
+#login,
+#logout { /* Ensure login/logout are styled the same as headers */
+  background-color: transparent; /* No background color to match other headers */
+  border: none; /* No border */
+  cursor: pointer; /* Change cursor to pointer */
+}
+.user{
+  color: white;
+}
+
+#login:hover,
+#logout:hover { /* Hover effect for both buttons */
+  background-image: linear-gradient(135deg, #FFDB01 10%, #0E197D 100%);
+  color: transparent; /* Keep the color transparent for gradient */
+}
+
+#main-container {
+  display: flex;
+  margin-top: 120px;
+}
+
+#child-container {
+  height: 500px;
+  width: 400px;
+  margin-left: 70px;
+}
+
+div h2 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+div p {
+  color: #544f4f;
+  margin-top: 20px;
+}
+
+.get-started {
+  margin-top: 20px;
+  width: 120px;
+  padding: 10px;
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+}
+
+.material-symbols-outlined {
+  color: #ffffff;
+  transform: translateY(10px);
+  margin-left: 25px;
+}
+.user {
+  color: white !important;
+}
+
+
+#request-a-demo {
+  color: #ffffff;
+  margin-left: 10px; /* Adjusted margin */
+  display: inline-block; /* Prevent overlap with the icon */
+  margin-top: 20px; /* Add space above this line */
+}
+
+#div-footer {
+  display: inline-block;
+  margin-left: -25px;
+  margin-top: 40px;
+}
+
+.folder {
+  height: 40px;
+  width: 40px;
+}
+
+#folder {
+  transform: translateY(-70px);
+  margin-left: 120px;
+}
+
+.tb {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.files-stored {
+  color: #544f4f;
+  margin-left: 25px;
+  margin-top: -1px;
+}
+
+#file {
+  transform: translateY(-142px);
+  margin-left: 240px;
+}
+
+#upload_file {
+  color: #ffffff;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.upload_file {
+  margin-top: -1px;
+  margin-left: 25px;
+}
+
+#second-child {
+  height: 400px;
+  width: 500px;
+  margin-left: 400px;
+}

@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  padding: 30px;
+  background-color: #201d1d;
+}
+
+#container{
+  display: flex;
+  justify-content:center;
+  
+}
+
+div a{
+  text-decoration: none;
+  margin-inline: 40px;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: large;
+}
+
+div a:hover {
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+  -webkit-background-clip: text; /* Vendor prefix for WebKit browsers */
+  background-clip: text; /* Standard property for compatibility */
+  color: transparent; /* Transparent text to show gradient */
+  transition: 0.5s; /* Smooth transition */
+}
+
+
+#main-container{
+  display: flex;
+  width: 95%;
+  margin-top: 100px;
+}
+
+#contact-paragraph{
+  margin-left: 60px;
+  width: 30%;
+}
+.contact {
+  background-image: linear-gradient(135deg, #97ABFF 10%, #123597 100%);
+  -webkit-background-clip: text; /* For WebKit browsers like Chrome and Safari */
+  background-clip: text; /* Standard property for other browsers */
+  color: transparent; /* Make the text transparent to show the gradient */
+  font-size: 50px;
+}
+
+.material-symbols-outlined{
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 47%;
+}
+
+#Email{
+  color: #ffffff;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#mail-id{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#massage-button{
+  margin-left: 35%;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #0c0b0b;
+  color: #ffffff;
+  border: none;
+}
+
+#second-div{
+  width: 30%;
+  transform: translateY(-30px);
+ }
+
+#first_child{
+  height: 240px;
+  width: 90%;
+  
+  border-radius: 20px;
+  margin-left: 40px;
+  background-color: #201d1d;
+}
+
+#second_child{
+  height: 240px;
+  width: 90%;
+  
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: #201d1d;
+}
+
+.third-div{
+  width: 30%;
+  padding: 30px;
+  transform: translateY(-60px);
+
+}
+.third-div input{
+  color: #ffffff;
+  width: 100%;
+  background-color: #201d1d;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  height: 25px;
+}
+.third-div textarea{
+  color: #ffffff;
+  width: 100%;
+  background-color: #201d1d;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  height: 90px;
+}
+.third-div button{
+  margin-top: 20px;
+  width: 80%;
+  padding: 10px;
+  margin-left: 60px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(to
+  right, #628eff,#8740cd,#580475)
+
+}
+
